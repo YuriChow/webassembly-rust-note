@@ -16,6 +16,10 @@ If you do not read Chinese, reading [Rust 🦀 and WebAssembly 🕸](https://rus
 - 您可以转载此笔记，但需要注明：原文链接 - [Rust 🦀 and WebAssembly 🕸](https://rustwasm.github.io/docs/book/)，和 [译文链接](https://github.com/YuriChow/webassembly-rust-note)，并且明示从此两个链接可以免费获取全文。
 
 ## code
+从 [模板代码：**rustwasm**/wasm-pack-template](https://github.com/rustwasm/wasm-pack-template) 构建出来的代码。仅用作参考，推荐自己手打。
+1. 根目录下运行 `wasm-pack build`；
+2. *./www* 下运行 `npm install`；
+3. *./www* 下运行 `npm run start`；
 
 ## others
 此笔记使用 ***Obsidian*** 记录，虽然没有使用几个特性功能 - 99%内容均为基础的 ***Markdown*** 语法，但是为了最好的阅读体验，推荐使用 ***Obsidian*** 打开此文档库。
